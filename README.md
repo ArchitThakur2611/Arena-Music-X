@@ -1,8 +1,7 @@
-<h1 align="centre">DAISYXMUSIC V5.0 🎵</h1>
+<h1 align="centre">ArenaMusic-X V5.0 🎵</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
-#### POWERED BY [MARSHALX TGCALLS](https://github.com/MarshalX/tgcalls)
-### Available on telegram as [@DaisyXbot](https://t.me/daisyxbot)
+### Available on telegram as [@daisy_x_arenabot](https://t.me/daisy_x_arenabot)
 
 <p align="center">
   <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
@@ -35,8 +34,8 @@ Get pyrogram (p)  `SESSION` from here:
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/TeamDaisyX/DaisyXmusic
-$ cd DaisyXMusic
+$ git clone https://github.com/nryadav7412/Arena-Music-X
+$ cd Arena-Music-X
 # Upgrade sources
 # Install All Requirements 
 $ pip3 install -r requirements.txt
