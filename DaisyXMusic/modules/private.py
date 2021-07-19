@@ -41,12 +41,12 @@ def _start(client, message):
                         "➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "📲 Updates", url=f"https://t.me/hexamyworld"), 
                     InlineKeyboardButton(
-                        "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "💬 Support", url=f"https://t.me/hexamyworld")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://t.me/Pokemon_Arena")
+                        "🛠 Source Code 🛠", url=f"https://t.me/spd_67899")
                 ]
             ]
         ),
@@ -61,7 +61,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support Chat", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "💬 Support Chat", url=f"https://t.me/hexamyworld"
                     )
                 ]
             ]
@@ -102,9 +102,9 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
-             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://t.me/Pokemon_Arena")],
+            [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/hexamyworld"),
+             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/hexamyworld")],
+            [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://t.me/spd_67899")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
