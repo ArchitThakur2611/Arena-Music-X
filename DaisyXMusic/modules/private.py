@@ -41,12 +41,12 @@ def _start(client, message):
                         "➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "📲 Updates", url=f"https://t.me/hexamyworld"), 
+                        "📲 Updates", url=f"https://t.me/pokmon_fans"), 
                     InlineKeyboardButton(
-                        "💬 Support", url=f"https://t.me/hexamyworld")
+                        "💬 Support", url=f"https://t.me/pokmon_fans")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://t.me/spd_67899")
+                        "🛠 Source Code 🛠", url=f"https://t.me/Jonas_Timetraveld")
                 ]
             ]
         ),
@@ -61,7 +61,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support Chat", url=f"https://t.me/hexamyworld"
+                        "💬 Support Chat", url=f"https://t.me/pokmon_fans"
                     )
                 ]
             ]
@@ -102,9 +102,9 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/hexamyworld"),
-             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/hexamyworld")],
-            [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://t.me/spd_67899")],
+            [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/pokmon_fans"),
+             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/pokmon_fans")],
+            [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://t.me/Jonas_Timetraveld")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
